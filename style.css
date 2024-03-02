@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.item {
+  width: calc(100% / 16);
+  padding-bottom: calc(100% / 16);
+  background-color: #ccc;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
